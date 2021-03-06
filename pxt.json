@@ -1,5 +1,5 @@
 {
-    "name": "Duhove LED",
+    "name": "policajna-sirena",
     "description": "",
     "dependencies": {
         "core": "*",
