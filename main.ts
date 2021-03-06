@@ -24,7 +24,9 @@ let strip: neopixel.Strip = null
 strip = neopixel.create(DigitalPin.P0, 8, NeoPixelMode.RGB)
 basic.forever(function () {
     cervenamodra()
-    basic.pause(500)
+    music.playTone(392, music.beat(BeatFraction.Half))
+    basic.pause(200)
     modracervena()
-    basic.pause(500)
+    music.playTone(523, music.beat(BeatFraction.Half))
+    basic.pause(200)
 })
